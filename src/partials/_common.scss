@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section {
+    background-color: $colore-sfondo-secondo;
+    height: $altezza-section;
+}
+
+.prova {
+    background-color: red;
+}

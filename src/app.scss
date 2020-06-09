@@ -1,15 +1,4 @@
-$colore-primo:red;
-$colore-secondo:blue;
-$altezza-section:40px;
-header {
-    background-color: $colore-primo;
-}
-
-section {
-    background-color: $colore-secondo;
-    height: $altezza-section;
-}
-
-.prova {
-    background-color: red;
-}
+@import 'partials/_variables';
+@import 'partials/_common';
+@import 'partials/_mixins';
+@import 'partials/_header';

@@ -1,13 +1,36 @@
-header {
-  background-color: red;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 section {
-  background-color: blue;
-  height: 40px;
+  background-color: coral;
+  height: 100vh;
 }
 
 .prova {
   background-color: red;
+}
+
+header {
+  background-color: white;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+img {
+  height: 50px;
+  display: inline;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
 }
 
