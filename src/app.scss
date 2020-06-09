@@ -1,0 +1,11 @@
+$colore-primo:red;
+$colore-secondo:blue;
+$altezza-section:40px;
+header {
+    background-color: $colore-primo;
+}
+
+section {
+    background-color: $colore-secondo;
+    height: $altezza-section;
+}
